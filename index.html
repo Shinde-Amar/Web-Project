@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid w-100 p-0 m-0">
+        <!-- Navbar  -->
+        <nav class="navbar navbar-dark navbar-expand-lg sticky-top m-0 border-1 " style="background-color: #13357B;">
+            <div class="container text-white">
+
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="./img/logo.png" style="width: 50px; height: 50px;" alt="">
+                    <span class="fs-3 text-white">TravelVista</span>
+                </a>
+
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto gap-0 gap-md-3 gap-lg-5">
+                        <li class="nav-item"><a class="nav-link text-white py-0 py-md-2 py-lg-3"
+                                href="index.html">Home</a></li>
+
+                        <li class="nav-item"><a class="nav-link text-white py-0 py-md-2 py-lg-3"
+                                href="about.html">About</a></li>
+
+                        <li class="nav-item dropdown py-0 py-md-2 ">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Service
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="service.html">Services</a></li>
+                                <li><a class="dropdown-item" href="service_details.html">Service Details</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item"><a class="nav-link text-white py-0 py-md-2 py-lg-3"
+                                href="package.html">Package</a>
+                        </li>
+
+                        <li class="nav-item dropdown py-0 py-md-2 ">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="destination.html">Destination</a></li>
+                                <li><a class="dropdown-item" href="our_gallery.html">Our Gallery</a></li>
+                                <li><a class="dropdown-item" href="explore_tour.html">Explore Tour</a></li>
+
+                            </ul>
+                        </li>
+
+                        <li class="nav-item"><a class="nav-link text-white py-0 py-md-2 py-lg-3"
+                                href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End  -->
+
+
+        <!-- slider start -->
+        <Section>
+            <div id="carouselExampleAutoplaying mt-sm-5 m-0" class="carousel slide p-0" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/carousel-1.webp" class="d-block w-100" alt="...">
+                        <div
+                            class="carousel-caption d-flex flex-column h-100  align-items-center justify-content-end justify-content-lg-center">
+                            <p style="font-size: 2vw;">EXPLORE THE WORLD</p>
+                            <h1 style="font-size: 5.2vw;">Find Your Perfect Tour At Travel</h1>
+                            <p style="font-size: 1.5vw;">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s,</p>
+                            <input class="btn btn-primary" style="width: 15vw; font-size: 1.5vw;" type="button"
+                                value="Discover Now">
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/carousel-2.webp" class="d-block w-100" alt="...">
+                        <div
+                            class="carousel-caption d-flex flex-column h-100 align-items-center justify-content-end justify-content-lg-center">
+                            <p style="font-size: 2vw;">EXPLORE THE WORLD</p>
+                            <h1 style="font-size: 5.2vw;">Le The World Together!</h1>
+                            <p style="font-size: 1.5vw;">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s,</p>
+                            <input class="btn btn-primary" style="width: 15vw; font-size: 1.5vw;" type="button"
+                                value="Discover Now">
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/carousel-3.webp" class="d-block w-100" alt="...">
+                        <div
+                            class="carousel-caption d-flex flex-column h-100 align-items-center justify-content-end justify-content-lg-center">
+                            <p style="font-size: 2vw;">EXPLORE THE WORLD</p>
+                            <h1 style="font-size: 5.2vw;">First slide label</h1>
+                            <p style="font-size: 1.5vw;">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s,</p>
+                            <input class="btn btn-primary" style="width: 15vw; font-size: 1.5vw;" type="button"
+                                value="Discover Now">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </Section>
+        <!-- Slider end  -->
+
+
+
+
+        <!-- About Start -->
+        <div class="container-fluid  about pb-5">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-5">
+                        <div style="
+                    border: 50px solid;
+                    border-color: transparent #13357b transparent #13357b;
+                  ">
+                            <img src="./img/about-img.webp" class="img-fluid w-100 h-100" alt="" />
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <h5 class="text-info">About Us ________</h5>
+                        <h1 class="mb-4">
+                            Welcome to <span class="text-primary">TravelVista</span>
+                        </h1>
+                        <p class="mb-4">
+                            Welcome to the world of unforgettable journeys with TravelVista. As a premier travel agency
+                            based in Pune, we craft personalized vacations that blend adventure, luxury, and cultural
+                            immersion across global destinations.
+                        </p>
+                        <p class="mb-4">
+                            Our expert team handles everything from first-class flights and handpicked hotels to curated
+                            city tours and 24/7 support, ensuring seamless experiences for leisure and business
+                            travelers alike.
+
+
+                        <div class="row gy-2 gx-4 mb-4">
+                            <div class="col-sm-6">
+                                <p class="mb-0">
+                                    <i class="fa fa-arrow-right text-primary me-2"></i>First
+                                    Class Flights
+                                </p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-0">
+                                    <i class="fa fa-arrow-right text-primary me-2"></i>Handpicked Hotels
+                                </p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-0">
+                                    <i class="fa fa-arrow-right text-primary me-2"></i>5 Star
+                                    Accommodations
+                                </p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-0">
+                                    <i class="fa fa-arrow-right text-primary me-2"></i>Latest
+                                    Model Vehicles
+                                </p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-0">
+                                    <i class="fa fa-arrow-right text-primary me-2"></i>150
+                                    Premium City Tours
+                                </p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-0">
+                                    <i class="fa fa-arrow-right text-primary me-2"></i>24/7
+                                    Service
+                                </p>
+                            </div>
+                        </div>
+                        <a class="btn btn-primary rounded-4 py-3 px-5 mt-2" href="">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About end -->
+
+
+
+        <!-- Services Start -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h5 class="text-primary">-----SERVICES-----</h5>
+                        <h1>Our Services</h1>
+                    </div>
+                    <div class="col-12 col-lg-6 p-4">
+                        <div class="row border border-primary p-3 mt-4 rounded-3 ">
+
+                            <div class="col-10 text-end">
+                                <h3>WorldWide Tours</h3>
+                                <p>
+                                    We organize carefully planned international tour packages covering famous landmarks,
+                                    and natural destinations across the globe. Our travel experts
+                                    manage itinerary planning, accommodation, and guided exploration to deliver
+                                    comfortable and memorable travel experiences for individuals, families, and group
+                                    travelers.
+                                </p>
+                            </div>
+                            <div class="col-2 d-flex  justify-content-center">
+                                <i class="fa-solid fa-earth-americas align-self-center" style="font-size: 70px;"></i>
+                            </div>
+                        </div>
+                        <div class="row border border-primary p-3 mt-4 rounded-3 ">
+
+                            <div class="col-10 text-end">
+                                <h3>Hotel Reservation</h3>
+                                <p>
+                                    Our hotel booking service connects travelers with verified accommodations offering
+                                    comfort, safety, and modern facilities. We help customers choose properties based on
+                                    location, budget, and travel purpose while ensuring easy check-in, exclusive deals,
+                                    and reliable support throughout their stay.
+                                </p>
+                            </div>
+                            <div class="col-2 d-flex  justify-content-center">
+                                <i class="fa-solid fa-hotel align-self-center" style="font-size: 70px;"></i>
+                            </div>
+                        </div>
+                        <div class="row border border-primary p-3 mt-4 rounded-3 ">
+
+                            <div class="col-10 text-end">
+                                <h3>Travel Guides</h3>
+                                <p>
+                                    Our professional travel guides provide deep knowledge about destinations, local
+                                    traditions, historical landmarks, and hidden attractions. They help travelers
+                                    explore places safely while sharing engaging stories, practical travel tips, and
+                                    authentic cultural experiences that make every journey more enjoya
+                                </p>
+                            </div>
+                            <div class="col-2 d-flex  justify-content-center">
+                                <i class="fa-solid fa-user align-self-center" style="font-size: 70px;"></i>
+                            </div>
+                        </div>
+                        <div class="row border border-primary p-3 mt-4 rounded-3 ">
+                            <div class="col-10 text-end">
+                                <h3>Event Management</h3>
+                                <p>
+                                    We specialize in organizing corporate events, destination weddings, business
+                                    meetings, and travel-related programs with detailed planning and execution. Our team
+                                    handles venue selection, logistics coordination, guest arrangements, and on-site
+                                    support to ensure successful and well-managed events.
+                                </p>
+                            </div>
+                            <div class="col-2 d-flex  justify-content-center">
+                                <i class="fa-solid fa-gear align-self-center" style="font-size: 70px;"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 p-4">
+                        <div class="row border border-primary p-3 mt-4 rounded-3 ">
+                            <div class="col-2 d-flex  justify-content-center">
+                                <i class="fa-solid fa-plane-departure align-self-center" style="font-size: 70px;"></i>
+                            </div>
+                            <div class="col-10">
+                                <h3>Flight Booking</h3>
+                                <p>
+                                    We offer reliable domestic and international flight booking services with
+                                    competitive pricing and flexible travel schedules. Our experts compare airline
+                                    options, manage ticket reservations, and provide travel assistance to ensure
+                                    passengers enjoy smooth boarding, convenient routes, and comfortable journeys.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row border border-primary p-3 mt-4 rounded-3 ">
+                            <div class="col-2 d-flex  justify-content-center">
+                                <i class="fa-solid fa-dolly align-self-center" style="font-size: 70px;"></i>
+                            </div>
+                            <div class="col-10">
+                                <h3>Transportation Services</h3>
+                                <p>
+                                    Our transportation service provides safe and convenient travel options including
+                                    airport transfers, city tours, and private vehicle rentals. With experienced drivers
+                                    and well-maintained vehicles, we ensure punctual pickups, comfortable rides, and
+                                    hassle-free movement throughout your travel destination.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row border border-primary p-3 mt-4 rounded-3 ">
+                            <div class="col-2 d-flex  justify-content-center">
+                                <i class="fa-brands fa-cc-visa align-self-center" style="font-size: 70px;"></i>
+                            </div>
+                            <div class="col-10">
+                                <h3>Visa Assistance</h3>
+                                <p>
+                                    We simplify visa processing by helping travelers complete applications, organize
+                                    required documents, and follow embassy guidelines. Our assistance reduces rejection
+                                    risks and delays, making international travel preparation easier, faster, and more
+                                    reliable for tourists, students, and business travelers.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row border border-primary p-3 mt-4 rounded-3 ">
+                            <div class="col-2 d-flex  justify-content-center">
+                                <i class="fa-solid fa-box-open align-self-center" style="font-size: 70px;"></i>
+                            </div>
+                            <div class="col-10">
+                                <h3>Customized Tour Packages</h3>
+                                <p>
+                                    We create personalized travel packages designed according to individual interests,
+                                    travel goals, and budget preferences. Our customized itineraries include
+                                    accommodation, sightseeing, transportation, and unique local experiences, ensuring
+                                    every traveler enjoys a memorable and well-planned vacation.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services end -->
+
+
+
+        <!-- Travel Guid  -->
+        <section>
+            <div class="container my-5">
+                <!------Title----->
+                <div class="row">
+                    <div class="col bg-body text-center p-5">
+                        <h5 class="text-primary">____ Travel Guid ____</h5>
+                        <h1 class="mb-8">Meet Our Guide</h1>
+                    </div>
+                </div>
+                <!------Title end----->
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3 mt-2">
+                        <div class="card position-relative" style="width: 100%;">
+                            <img src="./img/guide-1.webp" class="card-img-top" alt="...">
+                            <div class="rounded-4 p-2 border bg-white bg-opacity-50 w-75 position-absolute text-center"
+                                style="top: 66%;align-self: center; justify-self: center;color: #13357B;">
+                                <i class="ms-2 fs-4 fa-brands fa-square-facebook"></i>
+                                <i class="ms-2 fs-4 fa-brands fa-square-twitter"></i>
+                                <i class="ms-2 fs-4 fa-brands fa-square-instagram"></i>
+                                <i class="ms-2 fs-4 fa-brands fa-linkedin"></i>
+                            </div>
+                            <div class="card-body text-center mt-5">
+                                <h5 class="card-title">Full Name</h5>
+                                <p class="card-text">Designation</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mt-2">
+                        <div class="card position-relative" style="width: 100%;">
+                            <img src="./img/guide-2.webp" class="card-img-top" alt="...">
+                            <div class="rounded-4 p-2 border bg-white bg-opacity-50 w-75 position-absolute text-center"
+                                style="top: 66%;align-self: center; justify-self: center;color: #13357B;">
+                                <i class="ms-2 fs-4 fa-brands fa-square-facebook"></i>
+                                <i class="ms-2 fs-4 fa-brands fa-square-twitter"></i>
+                                <i class="ms-2 fs-4 fa-brands fa-square-instagram"></i>
+                                <i class="ms-2 fs-4 fa-brands fa-linkedin"></i>
+                            </div>
+                            <div class="card-body text-center mt-5">
+                                <h5 class="card-title">Full Name</h5>
+                                <p class="card-text">Designation</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mt-2">
+                        <div class="card position-relative" style="width: 100%;">
+                            <img src="./img/guide-3.webp" class="card-img-top" alt="...">
+                            <div class="rounded-4 p-2 border bg-white bg-opacity-50 w-75 position-absolute text-center"
+                                style="top: 66%;align-self: center; justify-self: center;color: #13357B;">
+                                <i class="ms-2 fs-4 fa-brands fa-square-facebook"></i>
+                                <i class="ms-2 fs-4 fa-brands fa-square-twitter"></i>
+                                <i class="ms-2 fs-4 fa-brands fa-square-instagram"></i>
+                                <i class="ms-2 fs-4 fa-brands fa-linkedin"></i>
+                            </div>
+                            <div class="card-body text-center mt-5">
+                                <h5 class="card-title">Full Name</h5>
+                                <p class="card-text">Designation</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mt-2">
+                        <div class="card position-relative" style="width: 100%;">
+                            <img src="./img/guide-4.webp" class="card-img-top" alt="...">
+                            <div class="rounded-4 p-2 border bg-white bg-opacity-50 w-75 position-absolute text-center"
+                                style="top: 66%;align-self: center; justify-self: center;color: #13357B;">
+                                <i class="ms-2 fs-4 fa-brands fa-square-facebook"></i>
+                                <i class="ms-2 fs-4 fa-brands fa-square-twitter"></i>
+                                <i class="ms-2 fs-4 fa-brands fa-square-instagram"></i>
+                                <i class="ms-2 fs-4 fa-brands fa-linkedin"></i>
+                            </div>
+                            <div class="card-body text-center mt-5">
+                                <h5 class="card-title">Full Name</h5>
+                                <p class="card-text">Designation</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Travel Guid end -->
+
+
+
+        <!-- Popular Destinations -->
+        <section>
+            <div class="container my-5">
+                <!------Title----->
+                <div class="row">
+                    <div class="col bg-body text-center p-5">
+                        <h5 class="text-primary">____ DESTINATION ____</h5>
+                        <h1 class="mb-8">Popular Destination</h1>
+                    </div>
+                </div>
+                <!------Title end----->
+
+                <div class="row">
+                    <div class="col-12  col-lg-8">
+                        <div class="row">
+                            <div class="col-12 col-md-6 mt-4"><img class="w-100 rounded-3"
+                                    src="./img/destination-1.webp" alt="">
+                            </div>
+                            <div class="col-12 col-md-6 mt-4"><img class="w-100 rounded-3"
+                                    src="./img/destination-2.webp" alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6 mt-4"><img class="w-100 rounded-3"
+                                    src="./img/destination-7.webp" alt="">
+                            </div>
+                            <div class="col-12 col-md-6 mt-4"><img class="w-100 rounded-3"
+                                    src="./img/destination-8.webp" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="col-12 mt-4">
+                            <img class="w-100 rounded-3" src="./img/destination-9.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-4 mt-4"><img class="w-100 rounded-3" src="./img/destination-4.webp"
+                            alt=""></div>
+                    <div class="col-12 col-md-4 mt-4"><img class="w-100 rounded-3" src="./img/destination-5.webp"
+                            alt=""></div>
+                    <div class="col-12 col-md-4 mt-4"><img class="w-100 rounded-3" src="./img/destination-6.webp"
+                            alt=""></div>
+                </div>
+            </div>
+        </section>
+        <!-- Popular destination end -->
+
+
+
+        <!-- Explore Tour  -->
+        <section>
+            <div class="container my-5">
+                <!------Title----->
+                <div class="row">
+                    <div class="col bg-body text-center p-5">
+                        <h5 class="text-primary">____ EXPLORE TOUR ____</h5>
+                        <h1 class="mb-8">The World</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed rerum quae quia quis deleniti
+                            dolor placeat hic voluptas eaque sit?</p>
+                    </div>
+                </div>
+                <!------Title end----->
+
+                <div class="row ">
+                    <div class="col-12 col-md-6 col-lg-4 mt-4">
+                        <div class="explore-card rounded-2 d-flex flex-column align-items-center justify-content-end text-white"
+                            style="background-image: url(img/explore-tour-1.webp);">
+                            <h3>Paris, France</h3>
+                            <p>Iconic Eiffel Tower views, Seine cruises, and gourmet cuisine in the City of Light. </p>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mt-4">
+                        <div class="explore-card rounded-2 d-flex flex-column align-items-center justify-content-end text-white"
+                            style="background-image: url(img/explore-tour-2.webp);">
+                            <h3>Bali, Indonesia</h3>
+                            <p>Pristine beaches, lush rice terraces, and spiritual temples await in paradise. </p>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mt-4">
+                        <div class="explore-card rounded-2 d-flex flex-column align-items-center justify-content-end text-white"
+                            style="background-image: url(img/explore-tour-3.webp);">
+                            <h3>Tokyo, Japan,</h3>
+                            <p>Vibrant neon streets, ancient temples, and world-class sushi in futuristic Tokyo.</p>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mt-4">
+                        <div class="explore-card rounded-2 d-flex flex-column align-items-center justify-content-end text-white"
+                            style="background-image: url(img/explore-tour-4.webp);">
+                            <h3>New York, USA</h3>
+                            <p>Skyscrapers, Broadway shows, and diverse neighborhoods in the Big Apple.</p>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mt-4">
+                        <div class="explore-card rounded-2 d-flex flex-column align-items-center justify-content-end text-white"
+                            style="background-image: url(img/explore-tour-5.webp);">
+                            <h3>Santorini, Greece</h3>
+                            <p>Stunning sunsets over whitewashed cliffs and crystal-clear Aegean waters. </p>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mt-4">
+                        <div class="explore-card rounded-2 d-flex flex-column align-items-center justify-content-end text-white"
+                            style="background-image: url(img/explore-tour-6.webp);">
+                            <h3>Cape Town, South Africa</h3>
+                            <p> Africa Table Mountain hikes, wildlife safaris, and vibrant coastal vibes. </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Explore tour end  -->
+
+
+        <!-- Our Gallery  -->
+        <section>
+            <div class="container-fluid ps-0 my-5">
+                <!------Title----->
+                <div class="row">
+                    <div class="col bg-body text-center p-5">
+                        <h5 class="text-primary">____ OUR GALLERY ____</h5>
+                        <h1 class="mb-8">Tourism & Traveling Gallery.</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nihil illo tempore
+                            repudiandae nesciunt delectus cumque recusandae modi porro nulla.</p>
+                    </div>
+                </div>
+                <!------Title end----->
+                <div class="row ">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 gap-4 mt-2 rounded-3"
+                        style="height: 300px; overflow: hidden;">
+                        <img class="rounded-3" src="img/gallery-1.webp" alt="">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 gap-4 mt-2 rounded-3"
+                        style="height: 300px; overflow: hidden;">
+                        <img class="rounded-3" src="./img/gallery-2.webp" alt="">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 gap-4 mt-2 rounded-3"
+                        style="height: 300px; overflow: hidden;">
+                        <img class="rounded-3" src="./img/gallery-3.webp" alt="">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 gap-4 mt-2 rounded-3"
+                        style="height: 300px; overflow: hidden;">
+                        <img class="rounded-3" src="./img/gallery-4.webp" alt="">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 gap-4 mt-2 rounded-3"
+                        style="height: 300px; overflow: hidden;">
+                        <img class="rounded-3" src="./img/gallery-5.webp" alt="">
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 gap-4 mt-2 rounded-3"
+                        style="height: 300px; overflow: hidden;">
+                        <img class="rounded-3" src="./img/gallery-6.webp" alt="">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 gap-4 mt-2 rounded-3"
+                        style="height: 300px; overflow: hidden;">
+                        <img class="rounded-3" src="./img/gallery-7.webp" alt="">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 gap-4 mt-2 rounded-3"
+                        style="height: 300px; overflow: hidden;">
+                        <img class="rounded-3" src="./img/gallery-8.webp" alt="">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 gap-4 mt-2 rounded-3"
+                        style="height: 300px; overflow: hidden;">
+                        <img class="rounded-3" src="./img/gallery-9.webp" alt="">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 gap-4 mt-2 rounded-3"
+                        style="height: 300px; overflow: hidden;">
+                        <img class="rounded-3" src="./img/gallery-10.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- our gallery end  -->
+
+
+        <!-- Testimonial -->
+        <section>
+            <div class="container">
+                <!------Title----->
+                <div class="row">
+                    <div class="col bg-body text-center p-5">
+                        <h5 class="text-primary">____TESTIMONIAL____</h5>
+                        <h1 class="mb-8">Our Clients Say!!!</h1>
+                    </div>
+                </div>
+                <!------Title end----->
+
+
+                <div class="row mb-5">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <!--  card1 start-->
+                        <div class="card border-0" style="width: 100%;">
+                            <div class="col-12 d-flex justify-content-center">
+                                <p class="card-text text-center fs-6 text-white p-3 rounded-4 bg-secondary position-relative"
+                                    style="height: 250px;">
+                                    Our trip to Manali was perfectly planned and executed.
+                                    The hotel arrangements, travel guides, and local sightseeing
+                                    were excellent. The team handled everything professionally,
+                                    which allowed us to enjoy the vacation stress-free.
+                                    Highly recommended for family tours.
+                                </p>
+                                <img src="./img/Atharv jagtap.png"
+                                    style="margin-top: -10%; border: dotted #13357B; width: 100%; height: 25%;"
+                                    class="w-25 p-2 position-absolute top-50 z-1 rounded-circle" alt="..." />
+                            </div>
+                            <div class="card-body text-center mt-5">
+                                <h5 class="card-title">Atharv jagtap</h5>
+                                <p class="m-2">Advocate , Pune</p>
+                                <p>⭐⭐⭐⭐⭐</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <!--  card1 start-->
+                        <div class="card border-0" style="width: 100%;">
+                            <div class="col-12 d-flex justify-content-center">
+                                <p class="card-text text-center fs-6 text-white p-3 rounded-4 bg-secondary position-relative"
+                                    style="height: 250px;">
+                                    I booked my honeymoon trip to Goa through this agency,
+                                    and it was one of the best decisions I made. The resort,
+                                    transportation, and special arrangements were wonderful.
+                                    Their support team stayed connected throughout the trip,
+                                    ensuring we had an unforgettable experience.
+                                </p>
+                                <img src="./img/guide-1.webp" style="margin-top: -10%; border: dotted #13357B;"
+                                    class="w-25 p-2 position-absolute top-50 z-1 rounded-circle" alt="..." />
+                            </div>
+                            <div class="card-body text-center mt-5">
+                                <h5 class="card-title">Rahul Sharma</h5>
+                                <p class="m-2">Software Engineer, Pune</p>
+                                <p>⭐⭐⭐⭐⭐</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <!--  card1 start-->
+                        <div class="card border-0" style="width: 100%;">
+                            <div class="col-12 d-flex justify-content-center">
+                                <p class="card-text text-center fs-6 text-white p-3 rounded-4 bg-secondary position-relative"
+                                    style="height: 250px;">
+                                    The Rajasthan cultural tour was beautifully organized.
+                                    Every location, from Jaipur to Udaipur, was covered perfectly.
+                                    The guide was knowledgeable and friendly, and the itinerary
+                                    was well balanced between sightseeing and relaxation.
+                                    I will definitely travel with them again.
+                                </p>
+                                <img src="./img/guide-2.webp" style="margin-top: -10%; border: dotted #13357B;"
+                                    class="w-25 p-2 position-absolute top-50 z-1 rounded-circle" alt="..." />
+                            </div>
+                            <div class="card-body text-center mt-5">
+                                <h5 class="card-title">Akshay Jagtap</h5>
+                                <p class="m-2">Software Developer, Pune</p>
+                                <p>⭐⭐⭐⭐⭐</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+
+        </section>
+        <!-- Testimonial end  -->
+
+
+
+
+        <!-- Subscribe Start -->
+        <section>
+            <div class="container-fluid subscribe py-5 mx-auto text-center">
+                <div class="container w-lg-50 my-5 text-white">
+                    <h5>____ SUBSCRIBE ____</h5>
+                    <h1 class="mb-3">Our Newsletter</h1>
+                    <p class="mb-5">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                        tempore nam, architecto doloremque velit explicabo? Voluptate sunt
+                        eveniet fuga eligendi! Expedita laudantium fugiat corrupti eum cum
+                        repellat a laborum quasi.
+                    </p>
+                    <div class="position-relative mx-auto">
+                        <input class="form-control border-primary rounded-pill w-100 py-3 ps-4 pe-5" type="text"
+                            placeholder="Your email" />
+                        <button type="button"
+                            class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 px-4 mt-2 me-2">
+                            Subscribe
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Subscribe End -->
+
+
+        <!-- Footer start -->
+        <section>
+            <div class="container-fluid bg-dark text-white">
+                <div class="container py-5">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <h4>Get In Touch</h4><br>
+                            <ul class="list-unstyled ">
+                                <li class="d-flex">
+                                    <i class="fa-solid fa-house-chimney"></i>
+                                    <p>&nbsp;&nbsp; 100 street KarveNagar,Pune.</p>
+
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <p>&nbsp;&nbsp; shindeamar036@gmail.com</p>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fa-solid fa-phone-flip"></i>
+                                    <p>&nbsp;&nbsp; +91 15316 54513</p>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fa-solid fa-mobile-retro"></i>
+                                    <p>&nbsp;&nbsp; +91 15316 54513</p>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="ms-2 fs-4 fa-solid fa-share">&nbsp;&nbsp; </i>
+                                    <i class="ms-2 fs-4 fa-brands fa-square-facebook"></i>
+                                    <i class="ms-2 fs-4 fa-brands fa-square-twitter"></i>
+                                    <i class="ms-2 fs-4 fa-brands fa-square-instagram"></i>
+                                    <i class="ms-2 fs-4 fa-brands fa-linkedin"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <h4>Company</h4><br>
+                            <ul class="list-unstyled">
+                                <li>About</li>
+                                <li>Careers</li>
+                                <li>Blog</li>
+                                <li>Press</li>
+                                <li>Gift Cards</li>
+                                <li>Magazine</li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <h4>Support</h4><br>
+                            <ul class="list-unstyled">
+                                <li>Contact</li>
+                                <li>Legal Notice</li>
+                                <li>Privacy Policy</li>
+                                <li>Terms and Conditions</li>
+                                <li>Sitemap</li>
+                                <li>Cookie policy</li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <h4>Payment Option</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center py-3 border border-secondary">
+                    <p>@2026 TravalVista. All Rights Reserved | Designed By Amar and Akshay.</p>
+                </div>
+            </div>
+        </section>
+        <!-- footer end  -->
+
+
+
+    </div>
+    <script src="./bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/5e73ca08f5.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

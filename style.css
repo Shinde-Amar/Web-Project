@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.theme_bg {
+    background-color: #13357B;
+}
+
+.navbar .nav-item a:hover {
+    background-color: #13357B;
+}
+
+
+
+
+
+
+/* Slider start  */
+.carousel {
+    margin-top: -100px;
+}
+
+.carousel img {
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%);
+}
+
+@media only screen and (max-width:768px) {
+    .carousel {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (min-width:368px) {
+    .carousel {
+        margin-top: 2px;
+    }
+}
+
+
+/* slider end  */
+
+
+
+
+
+
+/* <!-- Explore Tour  --> */
+.row .explore-card {
+    background-size: 100% 100%;
+    background-position: center;
+    height: 250px;
+    overflow: hidden;
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+}
+
+.row .explore-card:hover {
+    background-size: 120% 120%;
+    transform: translate(brightness(10%));
+    -webkit-transform: translate(brightness(10%));
+    -moz-transform: translate(brightness(10%));
+    -ms-transform: translate(brightness(10%));
+    -o-transform: translate(brightness(10%));
+}
+
+
+
+/* Subscribe */
+.subscribe {
+    background-image: linear-gradient(rgba(19, 53, 123, 0.5)), url(./img/carousel-2.webp);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+/* .subscribe end*/
+
+/* page title  */
+.page-title {
+    background-image: linear-gradient(rgba(19, 53, 123, 0.5)), url(./img/breadcrumb-bg.jpg.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+/* page title  end */
