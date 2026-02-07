@@ -9,10 +9,6 @@
     background-color: #13357B;
 }
 
-.navbar .nav-item a:hover {
-    background-color: #13357B;
-}
-
 
 
 
@@ -93,3 +89,10 @@
 }
 
 /* page title  end */
+
+
+
+input::placeholder,
+textarea::placeholder {
+    padding-left: 10px;
+}
